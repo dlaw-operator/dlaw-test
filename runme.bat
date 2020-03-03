@@ -1,0 +1,1 @@
+C:\PRG\apps\hugo\0.64.1\hugo.exe server --bind=0.0.0.0 --baseURL=http://172.16.232.184 --port=80

@@ -1,0 +1,86 @@
+* {
+    border: 1px solid red;
+}
+
+.service-block {
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+}
+
+.service-block img {
+    width: 100%;
+    /* height: auto; */
+    position: absolute;
+}
+
+.service-block div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service-block .topic {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    transition: all 100ms ease-in-out;
+    opacity: 1;
+}
+
+.service-block .caption {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.service-block .caption div {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: left;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.7); */
+    /* height: 100%; */
+    color: white;
+    transition: all 100ms ease-in-out;
+    /* opacity: 0; */
+    /* left: 50%; */
+}
+
+.service-block:hover .topic {
+    opacity: 0;
+}
+
+.service-block:hover .caption {
+    opacity: 1;
+}
+
+.member img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.faith img {
+    width: 100%;
+    max-width: 600px;
+}
+.split-line{
+    border: solid gray;
+    /* border-color: gray;
+    border-style: solid; */
+    border-width: 0 2px 0 0 ;
+}
+@media (max-width: 576px) { 
+    *{
+        /* border: 1px solid blue; */
+    }
+    .split-line{
+        border-width: 0 1px 0 0;
+    }
+}

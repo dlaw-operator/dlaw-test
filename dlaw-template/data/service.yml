@@ -1,0 +1,56 @@
+service_items :
+    # portfolio item loop
+    - name : 民事訴訟服務
+      image : images/portfolio/portfolio-1.jpg
+      icon : images/portfolio/portfolio-1.webp
+      content : 
+        - 一般民事案件起訴、調解、和解。
+        - 房屋及土地不動產買賣、租賃等事件。
+        - 車禍、醫療等侵權行為等損害賠償事件。
+        - 勞工案件、職災事件。
+        - 工程案件、履約爭議調解等事件。
+        - 三七五租約、祭祀公業派下員爭訟事件
+        - 離婚、監護權、親子訴訟、繼承等事件。
+    
+    - name : 刑事訴訟辯護服務
+      image:
+      icon: 
+      content: 
+        - 一般刑事案件告訴、辯護。
+        - 各類金融、毒品、貪汙等刑事案件辯護。
+        - 陪同當事人接受調查、偵訊等之權益保障。
+    
+    - name : 訴願、行政訴訟服務
+      image:
+      icon: 
+      content: 
+        - 訴願、行政訴訟程序。
+        - 行政程序之聽證或陳述意見。
+        - 國家賠償事件。
+
+    - name : 非訟及其他服務
+      image:
+      icon: 
+      content: 
+        - 強制執行之代理
+        - 和解協商
+        - 律師見證
+        - 其他相關案件之法律諮詢
+        - 契約文件撰寫及法律服務。
+    
+    - name : 公司顧問業務
+      image:
+      icon: 
+      content: 
+        - 企業法律顧問、公司常年法律顧問
+        - 擬撰、審閱契約文件
+        - 法律意見提供
+        - 律師函撰寫
+
+    - name : 訴願、行政訴訟服務
+      image:
+      icon: 
+      content: 
+        - 訴願、行政訴訟程序。
+        - 行政程序之聽證或陳述意見。
+        - 國家賠償事件。
